@@ -2,7 +2,7 @@
 import csv
 
 file = open('students.csv', 'r') 
-read = csv.read(file)
+read = csv.reader(file)
 
 rowindex = 0
 for row in read:
